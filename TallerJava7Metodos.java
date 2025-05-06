@@ -24,7 +24,7 @@ public class TallerJava7Metodos {
     }
     // -----------------Calificaciones------------------------
     public static String calificaciones (int nota1, int nota2, int nota3){
-        double promedio = (nota1 + nota2 + nota3) / 3;
+        double promedio = (double) (nota1 + nota2 + nota3) / 3;
         if (promedio >= 60){
             return "El estudiante aprobó";
         }else {
